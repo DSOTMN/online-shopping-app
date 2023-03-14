@@ -1,0 +1,20 @@
+{
+    "name": "aladin/online-shopping",
+    "description": "Online shopping app",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "OnlineShopping\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aladin Hadzic",
+            "email": "aladinhadziic@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*",
+      "ext-readline": "*"
+    }
+}
